@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pharmacy Benefit Management</title>
+
+    <script>
+        function login() {
+            alert("Login Successful");
+        }
+
+        function searchMedicine() {
+            alert("Medicine Found");
+        }
+
+        function addToCart() {
+            alert("Medicine Added to Cart");
+        }
+
+        function placeOrder() {
+            alert("Order Placed Successfully");
+        }
+    </script>
+</head>
+
+<body>
+
+<h2>Pharmacy Login</h2>
+
+<label>Username:</label>
+<input type="text" id="username"><br><br>
+
+<label>Password:</label>
+<input type="password" id="password"><br><br>
+
+<button id="loginBtn" onclick="login()">Login</button>
+
+<hr>
+
+<h3>Search Medicine</h3>
+<input type="text" id="searchBox">
+<button id="searchBtn" onclick="searchMedicine()">Search</button>
+
+<hr>
+
+<button id="addToCart" onclick="addToCart()">Add Medicine to Cart</button><br><br>
+
+<button id="checkout" onclick="placeOrder()">Place Order</button>
+
+</body>
+</html>
